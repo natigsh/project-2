@@ -758,7 +758,8 @@ a {
 .footer{
     width: 100%;
     background-color: var(--text-color);
-    padding: 5rem;
+    padding: 5rem 5rem 0;
+    position: relative;
 }
 
 .footerBox{    
@@ -819,6 +820,7 @@ a {
     justify-content: center;
     gap: 1rem;
     padding: 3rem 0;
+    margin-top: 3rem;
 }
 
 @media (max-width: 1350px) { 
@@ -868,6 +870,23 @@ a {
 
 @media (max-width: 520px) {
 
+    .advant{
+        padding: 2rem;
+    }
+
+    .text{
+        font-size: 24px !important;
+    }
+
+    .advantItemImg{
+        width: 30px;
+        height: 30px;
+    }
+
+    .advantItem p:last-child{
+        font-size: 16px;
+    }
+
     .advantLightblue {
         padding: 15px 0;
     }
@@ -879,7 +898,7 @@ a {
 
 
     .advantHeader {
-        font-size: 40px;
+        font-size: 32px;
         padding: 10px 0;
     }
 
@@ -898,6 +917,21 @@ a {
         justify-content: center;
         text-align: center;
     }
+    .rulesTextLorem {
+        font-size: 32px;
+        font-weight: 600;
+    }
 
+    .feadbackHeader{
+        font-size: 32px;
+    }
+    
 
+}
+
+.copyname{
+    position: absolute;
+    font-size: 1.6rem;
+    color: var(--placeholder-color);
+    bottom: 2.8rem;
 }
